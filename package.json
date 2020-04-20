@@ -1,21 +1,25 @@
 {
   "name": "jesse_chat",
-  "version": "2.1.3",
-  "description": "Middle School chat",
+  "version": "1.7.9",
+  "description": "Middle school chat will be large",
   "main": "index.js",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "dotenv": "^8.2.0",
-    "expres": "^0.0.5",
     "express": "^4.17.1",
-    "pg": "^8.0.2",
     "request": "^2.88.2",
-    "socket.io": "file:socket.io"
+    "socket.io": "^2.3.0"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Little Enderman (Jesse)",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Little-Enderman/Jesse_Chat.git"
+  },
+  "author": "Little Enderman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Little-Enderman/Jesse_Chat/issues"
+  },
+  "homepage": "https://github.com/Little-Enderman/Jesse_Chat#readme"
 }
