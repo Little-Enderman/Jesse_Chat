@@ -34,7 +34,7 @@ var express = require('express'),
     io = require('socket.io').listen(server),
     users=[];//保存所有在线用户的昵称
 app.use('/', express.static(__dirname + '/www'));
-server.listen(80);
+server.listen(process.env.PORT || 5000)
 
 
 //socket部分

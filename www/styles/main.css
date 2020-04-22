@@ -5,7 +5,7 @@ html, body {
 }
 .background {
     width: auto;
-    height: auto;
+    height: 650px;
     padding: 5px;
     margin: 0 auto;
     background-color: rgb(102, 230, 155);
